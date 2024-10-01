@@ -11,7 +11,7 @@ elif operation == '-':
 elif operation == '*':
     print("Multiplication is:",number_1 * number_2)
 
-elif operation == '/':
+elif operation == '%':
     print("Division is:",number_1 % number_2)
 
 else:
