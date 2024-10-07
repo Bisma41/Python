@@ -1,11 +1,11 @@
 def ListInput():
-    n = int(input("How many names do you want to enter? "))
-    names = [None] * n
+    n = int(input("enter the length of list: "))
+    num = [None] * n
     for i in range(n):
-        names[i] = input(f"Enter name {i+1}: ")
+        num[i] = input(f"Enter number {i+1}: ")
     return names
 
-entered_names = ListInput()
-print("\nThe entered names are:")
-for name in entered_names:
-    print(name)
+entered_numbers = ListInput()
+print("\nThe entered numbers are:")
+for number in entered_numbers:
+    print(num)
